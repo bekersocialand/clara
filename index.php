@@ -1,5 +1,4 @@
 <?php
-// Datos de destinos cargados dinámicamente
 destinations = [
     'moon' => [
         'name' => 'MOON',
@@ -31,7 +30,7 @@ destinations = [
     ]
 ];
 
-$selected = $_GET['destination'] ?? 'moon'; // Selección por defecto si no se pasa por GET
+$selected = $_GET['destination'] ?? 'moon'; 
 $destination = $destinations[$selected] ?? $destinations['moon'];
 ?>
 
@@ -126,7 +125,6 @@ $destination = $destinations[$selected] ?? $destinations['moon'];
 	else {
 		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
 	}
-	// ]]>
 </script>
 </body>
 </html>
