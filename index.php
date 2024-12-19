@@ -89,9 +89,7 @@ $destination = $destinations[$selected] ?? $destinations['moon'];
             </div>
         </section>
     </main>
-<!-- Code injected by live-server -->
 <script>
-	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
 		(function () {
 			function refreshCSS() {
