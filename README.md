@@ -1,1 +1,0 @@
-# Prueba tecnica Christian Lara
